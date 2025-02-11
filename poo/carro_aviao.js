@@ -13,21 +13,15 @@ class Carro {
     //ações
     criarCarro(){
         console.log("-------------------------------------")
-        console.log("                     ")
-        console.log("        _______      ")
-        console.log("       //  ||\ \     ")
-        console.log(" _____//___||_\ \___ ")
-        console.log(" )  _          _    |")
-        console.log(" |_/ \________/ \___|")
-        console.log("___\_/________\_/____")
-        console.log(`Ano de ${this.ano} `)
-        console.log(`cor: ${this.cor}`)
+        console.log("🚗")
+        console.log(`carro:${this.ano} `)
+        console.log(`ano: ${this.cor}`)
     }
     ligar(){
-        console.log(`o carro esta ${this.ano} Ligado `)
+        console.log(`o carro esta  Ligado `)
     }
     desligar() {
-        console.log(`o  carro esta ${this.cor} Desligado`)
+        console.log(`o  carro esta  Desligado`)
     }
     acelerando() {
         console.log("vummmmmmmmmmmm")
@@ -43,18 +37,14 @@ class Aviao extends  Carro {
 
     criarAviao(){
         console.log("----------------------------------------------------------------")
-        console.log("                                                                 ")
-        console.log("                            ___________                          ")
-        console.log("                                 |                               ")
-        console.log("                            _   _|_   _                          ")
-        console.log("                           (_)-/   \-(_)                        ")
-        console.log("    _                         /\___/\                         _  ")
-        console.log("   (_)_______________________( ( . ) )_______________________(_) ")
-        console.log("                              \_____/                            ")
+        console.log("🛫")
+        console.log(`Aviao ${this.ano}`)
+        console.log(`invergadura ${this.invergadura}`)
+     
     }
 
     acelerar() {
-        console.log("Vummmmm")
+        console.log("eommmmmmm")
     }
 
     Aterrizar() {
@@ -80,7 +70,7 @@ carro2.acelerando()
 carro2.desligar()
 
 
-const aviao = new Aviao("AViao")
+const aviao = new Aviao("delta",2020,"30")
 aviao.criarAviao()
 aviao.acelerando()
 aviao.Aterrizar()
