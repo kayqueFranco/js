@@ -44,7 +44,7 @@ class Aviao extends  Carro {
     }
 
     acelerar() {
-        console.log("eommmmmmm")
+        console.log("uommmmmmm")
     }
 
     Aterrizar() {
@@ -72,5 +72,5 @@ carro2.desligar()
 
 const aviao = new Aviao("delta",2020,"30")
 aviao.criarAviao()
-aviao.acelerando()
+aviao.acelerar()
 aviao.Aterrizar()
